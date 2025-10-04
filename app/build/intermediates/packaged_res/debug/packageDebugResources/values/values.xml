@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="green">#4CAF50</color>
+    <color name="grey">#808080</color>
+    <color name="primary">#6200EE</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">CityCyle Rent</string>
+    <string name="firebase_database_url" translatable="false">https://citycycle-rent-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">320404618108</string>
+    <string name="google_api_key" translatable="false">AIzaSyBLC1rbVAZa2iq2vvXjtRi4x2eNYqWwAaU</string>
+    <string name="google_app_id" translatable="false">1:320404618108:android:9c93cf034da5d9208c42f9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBLC1rbVAZa2iq2vvXjtRi4x2eNYqWwAaU</string>
+    <string name="google_storage_bucket" translatable="false">citycycle-rent.firebasestorage.app</string>
+    <string name="project_id" translatable="false">citycycle-rent</string>
+    <style name="Base.Theme.CityCyleRent" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.CityCyleRent" parent="Base.Theme.CityCyleRent"/>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Search View -->
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search bikes..."
+        android:iconifiedByDefault="false"
+        android:background="@drawable/searchview_background"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Date and Time Selection Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/buttonSelectDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select Date"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:layout_marginEnd="8dp"
+            android:stateListAnimator="@null"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/buttonSelectTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select Time"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:stateListAnimator="@null"
+            android:elevation="4dp"/>
+    </LinearLayout>
+
+    <!-- RecyclerView to display bikes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewBikes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:overScrollMode="never"
+        android:clipToPadding="false"/>
+</LinearLayout>

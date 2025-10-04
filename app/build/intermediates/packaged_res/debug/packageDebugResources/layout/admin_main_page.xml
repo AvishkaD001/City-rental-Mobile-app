@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👋 Welcome to Admin Main Page"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Add Station Button -->
+    <Button
+        android:id="@+id/Addstation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➕ Add Station"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:stateListAnimator="@null"
+        android:elevation="4dp"/>
+
+    <!-- Add Bicycle Button -->
+    <Button
+        android:id="@+id/AddBike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚴 Add Bicycle"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:stateListAnimator="@null"
+        android:elevation="4dp"/>
+</LinearLayout>
