@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/item_background"
+    android:layout_margin="8dp">
+
+    <!-- Bike Name -->
+    <TextView
+        android:id="@+id/textViewBikeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚴 Bike Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Reservation Date -->
+    <TextView
+        android:id="@+id/textViewReservationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 Date: "
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Reservation Time -->
+    <TextView
+        android:id="@+id/textViewReservationTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⏰ Time: "
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Station Name -->
+    <TextView
+        android:id="@+id/textViewStationname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📍 Station Name: "
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
